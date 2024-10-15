@@ -1,4 +1,4 @@
 Ceci est un fichier de test.
-Nous allons remplacer le mot 'ancien' par 'nouveau'.
+Nous allons remplacer le mot 'ancien' par 'ancienne'.
 L'ancien test a été effectué avec succès.
-Ancien contenu devrait être mis à jour avec nouveau contenu. 
+Ancien contenu devrait être mis à jour avec nouveau contenu.

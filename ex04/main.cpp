@@ -6,7 +6,7 @@
 /*   By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 14:11:57 by cyferrei          #+#    #+#             */
-/*   Updated: 2024/10/15 15:30:02 by cyferrei         ###   ########.fr       */
+/*   Updated: 2024/10/15 17:34:06 by cyferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,20 @@
 void replaceOcc(std::ifstream &inFile, std::ofstream &outFile, std::string search, std::string replace)
 {
 	std::string line;
-	size_t pos;
-
+	size_t pos = 0;
+	
+	if (search.empty() || replace.empty())
+	{
+		std::cout << BOLD_ON YELLOW << "Empty strings are not accepted!" << RESET << std::endl;
+		return;
+	}
 	while(std::getline(inFile, line))
 	{
-		while((pos = line.find(search)) != std::string::npos)
+		pos = 0;
+		while((pos = line.find(search, pos)) != std::string::npos)
 		{
 			line = line.substr(0, pos) + replace + line.substr(pos + search.length());
+			pos += replace.length();
 		}
 		outFile << line << std::endl;
 	}
@@ -65,11 +72,10 @@ bool parsing(int argc)
 
 int main(int argc, char **argv)
 {
-	(void)argv;
-	
 	std::ifstream inFile;
 	std::ofstream outFile;
-	parsing(argc);
+	if (!parsing(argc))
+		return (-1);
 	if (!initFiles(argv, &inFile, &outFile))
 		return (-1);
 	replaceOcc(inFile, outFile, argv[2], argv[3]);
