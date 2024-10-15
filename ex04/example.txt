@@ -1,0 +1,4 @@
+Ceci est un fichier de test.
+Nous allons remplacer le mot 'ancien' par 'nouveau'.
+L'ancien test a été effectué avec succès.
+Ancien contenu devrait être mis à jour avec nouveau contenu. 
