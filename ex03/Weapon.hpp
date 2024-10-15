@@ -6,7 +6,7 @@
 /*   By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 16:53:38 by cyferrei          #+#    #+#             */
-/*   Updated: 2024/10/14 17:19:16 by cyferrei         ###   ########.fr       */
+/*   Updated: 2024/10/15 12:06:17 by cyferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 
 class Weapon{
 	private:
-		std::string type;
+		std::string _type;
 	
 	public:
 		Weapon();
