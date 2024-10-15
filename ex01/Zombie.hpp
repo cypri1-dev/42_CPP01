@@ -6,7 +6,7 @@
 /*   By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 14:47:31 by cyferrei          #+#    #+#             */
-/*   Updated: 2024/10/14 15:24:05 by cyferrei         ###   ########.fr       */
+/*   Updated: 2024/10/15 11:23:27 by cyferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@
 
 class Zombie{
 	private:
-		std::string name;
+		std::string _name;
 
 	public:
 		Zombie();
