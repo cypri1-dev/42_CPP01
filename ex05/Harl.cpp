@@ -6,7 +6,7 @@
 /*   By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 15:27:44 by cyferrei          #+#    #+#             */
-/*   Updated: 2024/10/16 16:46:10 by cyferrei         ###   ########.fr       */
+/*   Updated: 2024/10/16 16:52:53 by cyferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,5 @@ void Harl::complain(std::string level)
     {
         if(level == selection[i].keyword)
             (this->*selection[i].func)();
-        if (i == (sizeof(selection) / sizeof(selection[0])))
-            std::cout << BOLD_ON YELLOW << "Wrong level!" << std::endl;
     }
 }
