@@ -6,11 +6,11 @@
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/15 14:10:50 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/15 14:11:42 by cyferrei         ###   ########.fr        #
+#    Updated: 2024/10/17 13:14:04 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = sedLoosers
+NAME = SedLoosers
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3

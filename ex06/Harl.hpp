@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/16 15:28:10 by cyferrei          #+#    #+#             */
-/*   Updated: 2024/10/17 12:43:41 by cyferrei         ###   ########.fr       */
+/*   Created: 2024/10/17 12:44:02 by cyferrei          #+#    #+#             */
+/*   Updated: 2024/10/17 12:56:45 by cyferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,15 @@
 #define MAGENTA "\033[35m"
 #define RED "\033[31m"
 
+
 class Harl {
     private:
         void debug( void );
         void info( void );
         void warning( void );
         void error( void );
+        enum Level {DEBUG, INFO, WARNING, ERROR, OTHER};
+        Level getLevel(std::string &level);
     
     public:
         Harl();

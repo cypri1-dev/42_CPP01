@@ -6,11 +6,11 @@
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/14 16:17:51 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/14 16:19:16 by cyferrei         ###   ########.fr        #
+#    Updated: 2024/10/17 13:14:17 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = hiThisIsBrain
+NAME = HiThisIsBrain
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3

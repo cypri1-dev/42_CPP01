@@ -6,11 +6,11 @@
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/16 15:19:33 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/16 15:25:31 by cyferrei         ###   ########.fr        #
+#    Updated: 2024/10/17 13:13:59 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = harl
+NAME = Harl
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3

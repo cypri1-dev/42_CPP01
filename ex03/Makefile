@@ -6,11 +6,11 @@
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/14 16:50:44 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/14 16:52:02 by cyferrei         ###   ########.fr        #
+#    Updated: 2024/10/17 13:14:11 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = violence
+NAME = Violence
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3

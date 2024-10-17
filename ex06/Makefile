@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/10/14 13:26:47 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/17 13:14:32 by cyferrei         ###   ########.fr        #
+#    Created: 2024/10/17 12:42:27 by cyferrei          #+#    #+#              #
+#    Updated: 2024/10/17 12:42:45 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Zombie
+NAME = HarlFilter
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
-SRC = Zombie.cpp randomChump.cpp newZombie.cpp main.cpp
+SRC = Harl.cpp main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

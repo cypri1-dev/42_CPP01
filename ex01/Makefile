@@ -6,11 +6,11 @@
 #    By: cyferrei <cyferrei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/14 14:45:09 by cyferrei          #+#    #+#              #
-#    Updated: 2024/10/14 14:46:43 by cyferrei         ###   ########.fr        #
+#    Updated: 2024/10/17 13:14:25 by cyferrei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = zombieHorde
+NAME = ZombieHorde
 CXX = c++
 RM = rm -rf
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
